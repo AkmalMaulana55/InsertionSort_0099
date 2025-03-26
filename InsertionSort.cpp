@@ -50,7 +50,18 @@ void insertionsort()
             arr[j + 1] = arr[j]; // Step 4a
             j--; // Step 4b
         }
+
         arr[j + 1] = temp; // Step 5
     }
+}
+
+void display()
+{
+    cout << endl; // Output baris Kosong
+    cout << "==================================" << endl;
+    cout << "Total Passs = " << n - 1 << endl; // count element movement
+    cout << "==================================" << endl; // Output ke layar
+    cout << "Element Array yang telah tersusun" << endl; // Output ke layar
+    cout << "==================================" << endl; // Output ke layar
     
 }
